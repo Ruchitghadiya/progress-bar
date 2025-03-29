@@ -5,7 +5,7 @@ const ProgressBar = () => {
 
   const [progress, setProgress] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
-  const [duration, setDuration] = useState(20);
+  const [duration, setDuration] = useState(10);
   const intervalRef = useRef(null);
   const startTimeRef = useRef(null);
 
